@@ -4,10 +4,10 @@ const createWindow = () => {
         width: 800,
         height: 600
     })
- 
+
     win.loadURL('http://localhost:5173') // 修改访问地址
     // win.loadFile('index.html')
- 
+
 }
 app.whenReady().then(() => {
     createWindow()
